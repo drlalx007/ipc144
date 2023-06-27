@@ -1,0 +1,21 @@
+1. The two possible constructs by which we can map month integer to the first three characters of the month are-
+a. Switch case statements
+E.g.: switch (month)
+	   {
+	    case1:printf(“%d-JAN-01\n”);
+		  break;
+	    case2:printf(“%d-FEB-01\n”);
+		  break;
+		  default:break;
+	   }
+b. If elseif statements
+E.g.: if(month==1)
+      printf(“%d-JAN-01\n”);
+      elseif(month==2)
+      printf(“%d-FEB-01\n”);
+      else
+      printf(“Wrong input\n”);
+2. The three types of iteration constructs are for, do-while and while loops. The one that I used in my program is a do-while loop for setting the correct year and month for the logs and I used a for loop for iterating the number of log days and inside the for loop I used two do-while loop for the setting of the correct morning and evening rating for each log.
+3. To test and debug my program, I first build the solution of my program and when was able to build my program successfully, I debugged it. After debugging I ran the program in the prompt. Then I started solving my logical and the arithmetical errors and finally I was able to get the desired output of the program.
+
+		
