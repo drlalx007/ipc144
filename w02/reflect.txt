@@ -1,0 +1,10 @@
+Reflection 
+Name: Daryl Alex	Student ID: 143691202	Seneca user id: dalex4@mysenecaca	Subject code: ZBB
+1. 10.12 did not return the expected value because floating point data store their variables into three components known as the sign, exponent and significand. The number of bits in the significant is limited and therefore the float and double types cannot store all the possible floating-point values exactly as it is and there can be a lot of variation and such a variation is found in 10.12.
+2. a) intValue % 2 – All the multiples of two will return 0 and all non-multiples will return 1. For example, 200 will return 0 and 201 will return 1.
+b) intValue % 3 – All the multiples of 3 will return 0, any digit before a multiple of three will return 2 and any digit after the multiple of 3 will return 1. For example, 6 will return 0, 7 which is after 6 will return 1 and 5 which is before 6 will return 2.
+c) intValue % 100 – All the multiples of 100 will return 0, any digit other than the multiple of 100 will return the last two number of the digit and any single digit no. will return the number itself. For example, 400 will return 0, 435 will return 35 and 4 will return 4.
+3.int wholePizzasEaten = totalSlices – estimatedSlicesConsumed/12; 
+int extraSlicesNeeded = totalSlices – estimatedSlicesConsumed%12;
+4. It is always best to convert floating point values to integers when performing arithmetic calculation because in doing so we can avoid the loss of data while calculation. This is because floating point variables, which includes float stores values in three different components known as sign, exponents and significant. The significant has a smaller number of bits and therefore a lot of variation occurs in values which can result in mathematical errors while doing arithmetical calculations.
+
