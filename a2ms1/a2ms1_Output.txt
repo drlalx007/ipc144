@@ -1,0 +1,420 @@
+Script started on Sun 14 Mar 2021 06:53:24 PM EDT
+==============================================
+Account Ticketing System - Login
+==============================================
+1) Login to the system
+0) Exit application
+----------------------------------------------
+
+Selection: 1
+
+Enter your account#: 50008
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+1) Add a new account
+2) Modify an existing account
+3) Remove an account
+4) List accounts: summary view
+5) List accounts: detailed view
+----------------------------------------------
+6) List new tickets
+7) List active tickets
+8) Manage a ticket
+9) Archive closed tickets
+----------------------------------------------
+0) Logout
+
+Selection: 1
+
+New Account Data (Account#:50600)
+----------------------------------------
+Enter the account type (A=Agent | C=Customer): C
+
+User Login Data Input
+----------------------------------------
+Enter user login (10 chars max): Has Space
+ERROR:  The user login must NOT contain whitespace characters.
+Enter user login (10 chars max): NoSpace
+Enter the display name (30 chars max): Customer Chris
+Enter the password (must be 8 chars in length): A
+ERROR: String length must be exactly 8 chars: 12345678
+SECURITY: Password must contain 2 of each:
+          Digit: 0-9
+          UPPERCASE character
+          lowercase character
+          symbol character: !@#$%^&*
+Enter the password (must be 8 chars in length): pa55WD!d
+SECURITY: Password must contain 2 of each:
+          Digit: 0-9
+          UPPERCASE character
+          lowercase character
+          symbol character: !@#$%^&*
+Enter the password (must be 8 chars in length): pa55WD&!
+
+Demographic Data Input
+----------------------------------------
+Enter birth year (current age must be between 18 and 110): 1999
+Enter the household Income: $240750.11
+Enter the country (30 chars max.): england
+
+*** New account added! ***
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+1) Add a new account
+2) Modify an existing account
+3) Remove an account
+4) List accounts: summary view
+5) List accounts: detailed view
+----------------------------------------------
+6) List new tickets
+7) List active tickets
+8) Manage a ticket
+9) Archive closed tickets
+----------------------------------------------
+0) Logout
+
+Selection: 5
+
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+30001 CUSTOMER   1990 $ 150000.10 CANADA     Silly Sally     cust1      A*1*3*D*
+50599 AGENT      1972 $2250400.22 AFRICA     Fred Flintstone agent1     y*b*#*@*
+30004 CUSTOMER   1978 $ 250800.74 INDIA      Betty Boop      cust2      1*E*P*!*
+50008 AGENT      1952 $2350600.82 U.S.A.     Will Smith      agentJ     T***2*t*
+20020 CUSTOMER   2000 $ 350500.35 KOREA      Shrimpy Shrimp  cust3      8*3*J*m*
+50600 CUSTOMER   1999 $ 240750.11 ENGLAND    Customer Chris  NoSpace    p*5*W*&*
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+1) Add a new account
+2) Modify an existing account
+3) Remove an account
+4) List accounts: summary view
+5) List accounts: detailed view
+----------------------------------------------
+6) List new tickets
+7) List active tickets
+8) Manage a ticket
+9) Archive closed tickets
+----------------------------------------------
+0) Logout
+
+Selection: 2
+
+Enter the account#: 50600
+
+Account: 50600 - Update Options
+----------------------------------------
+1) Update account type (current value: C)
+2) Login
+3) Demographics
+0) Done
+Selection: 2
+
+User Login: NoSpace - Update Options
+----------------------------------------
+1) Display name (current value: Customer Chris)
+2) Password
+0) Done
+Selection: 2
+
+Enter the password (must be 8 chars in length): juMP1!*&
+SECURITY: Password must contain 2 of each:
+          Digit: 0-9
+          UPPERCASE character
+          lowercase character
+          symbol character: !@#$%^&*
+Enter the password (must be 8 chars in length): juMP1!*9
+
+User Login: NoSpace - Update Options
+----------------------------------------
+1) Display name (current value: Customer Chris)
+2) Password
+0) Done
+Selection: 0
+
+Account: 50600 - Update Options
+----------------------------------------
+1) Update account type (current value: C)
+2) Login
+3) Demographics
+0) Done
+Selection: 3
+
+Demographic Update Options
+----------------------------------------
+1) Household Income (current value: $240750.11)
+2) Country (current value: ENGLAND)
+0) Done
+Selection: 2
+
+Enter the country (30 chars max.): romania
+
+Demographic Update Options
+----------------------------------------
+1) Household Income (current value: $240750.11)
+2) Country (current value: ROMANIA)
+0) Done
+Selection: 0
+
+Account: 50600 - Update Options
+----------------------------------------
+1) Update account type (current value: C)
+2) Login
+3) Demographics
+0) Done
+Selection: 0
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+1) Add a new account
+2) Modify an existing account
+3) Remove an account
+4) List accounts: summary view
+5) List accounts: detailed view
+----------------------------------------------
+6) List new tickets
+7) List active tickets
+8) Manage a ticket
+9) Archive closed tickets
+----------------------------------------------
+0) Logout
+
+Selection: 6
+
+Feature #6 currently unavailable!
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+1) Add a new account
+2) Modify an existing account
+3) Remove an account
+4) List accounts: summary view
+5) List accounts: detailed view
+----------------------------------------------
+6) List new tickets
+7) List active tickets
+8) Manage a ticket
+9) Archive closed tickets
+----------------------------------------------
+0) Logout
+
+Selection: 7
+
+Feature #7 currently unavailable!
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+1) Add a new account
+2) Modify an existing account
+3) Remove an account
+4) List accounts: summary view
+5) List accounts: detailed view
+----------------------------------------------
+6) List new tickets
+7) List active tickets
+8) Manage a ticket
+9) Archive closed tickets
+----------------------------------------------
+0) Logout
+
+Selection: 8
+
+Feature #8 currently unavailable!
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+1) Add a new account
+2) Modify an existing account
+3) Remove an account
+4) List accounts: summary view
+5) List accounts: detailed view
+----------------------------------------------
+6) List new tickets
+7) List active tickets
+8) Manage a ticket
+9) Archive closed tickets
+----------------------------------------------
+0) Logout
+
+Selection: 9
+
+Feature #9 currently unavailable!
+
+<< ENTER key to Continue... >>
+
+AGENT: Will Smith (50008)
+==============================================
+Account Ticketing System - Agent Menu
+==============================================
+1) Add a new account
+2) Modify an existing account
+3) Remove an account
+4) List accounts: summary view
+5) List accounts: detailed view
+----------------------------------------------
+6) List new tickets
+7) List active tickets
+8) Manage a ticket
+9) Archive closed tickets
+----------------------------------------------
+0) Logout
+
+Selection: 0
+
+### LOGGED OUT ###
+
+==============================================
+Account Ticketing System - Login
+==============================================
+1) Login to the system
+0) Exit application
+----------------------------------------------
+
+Selection: 1
+
+Enter your account#: 12345
+
+ERROR:  Access Denied.
+
+<< ENTER key to Continue... >>
+
+==============================================
+Account Ticketing System - Login
+==============================================
+1) Login to the system
+0) Exit application
+----------------------------------------------
+
+Selection: 1
+
+Enter your account#: 50600
+
+CUSTOMER: Customer Chris (50600)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) List my tickets
+3) Create a new ticket
+4) Manage a ticket
+----------------------------------------------
+0) Logout
+
+Selection: 1
+
+Acct# Acct.Type Birth Income      Country    Disp.Name       Login      Password
+----- --------- ----- ----------- ---------- --------------- ---------- --------
+50600 CUSTOMER   1999 $ 240750.11 ROMANIA    Customer Chris  NoSpace    j*M*1***
+
+<< ENTER key to Continue... >>
+
+CUSTOMER: Customer Chris (50600)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) List my tickets
+3) Create a new ticket
+4) Manage a ticket
+----------------------------------------------
+0) Logout
+
+Selection: 2
+
+Feature #2 currently unavailable!
+
+<< ENTER key to Continue... >>
+
+CUSTOMER: Customer Chris (50600)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) List my tickets
+3) Create a new ticket
+4) Manage a ticket
+----------------------------------------------
+0) Logout
+
+Selection: 3
+
+Feature #3 currently unavailable!
+
+<< ENTER key to Continue... >>
+
+CUSTOMER: Customer Chris (50600)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) List my tickets
+3) Create a new ticket
+4) Manage a ticket
+----------------------------------------------
+0) Logout
+
+Selection: 4
+
+Feature #4 currently unavailable!
+
+<< ENTER key to Continue... >>
+
+CUSTOMER: Customer Chris (50600)
+==============================================
+Customer Main Menu
+==============================================
+1) View your account detail
+2) List my tickets
+3) Create a new ticket
+4) Manage a ticket
+----------------------------------------------
+0) Logout
+
+Selection: 0
+
+### LOGGED OUT ###
+
+==============================================
+Account Ticketing System - Login
+==============================================
+1) Login to the system
+0) Exit application
+----------------------------------------------
+
+Selection: 0
+
+Are you sure you want to exit? ([Y]es|[N]o): y
+
+==============================================
+Account Ticketing System - Terminated
+==============================================
+
+
+Script done on Sun 14 Mar 2021 06:58:56 PM EDT

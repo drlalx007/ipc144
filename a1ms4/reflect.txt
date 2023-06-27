@@ -1,0 +1,10 @@
+Name: Daryl Alex
+Student ID: 143691202
+Email: darylalex4@myseneca.ca
+Subject code: ZBB
+
+1) Matching the outputs exactly as shown is very frustrating as it shows an error even if we print a wrong space anywhere in the code or if we add an extra space next to an output. But doing this will help us to work harder under more stressful situations. These challenges help us to finish our work in a more professional manner and will also help us to prepare for frustrative tasks.
+2) Module and library are key to the program and we should consider creating header files with [.h] extension and source file with [c]. It is also very important to safeguard header files and create both header and source files with the same name it makes the identification much easier, and we can easily work on both files.
+Example: In my program, I have created commonHelpers.h header file and commonHelpers.c file know it is very easy for me to add prototype in the header file and their definition in the source file, also it will not create confusion between different files and make the task of upgradation easy. If a program has too many files and we are working on them then if we use functions with prototype in a file and definition in other and name files very differently this will create a mess and we will not be able to work and write code or it will take too much time to understand program.
+3) Cascading menu is like nested menus where each menu has another menu inside, and the user can choose a different option and can work with every value. Cascading menu display submenus which show the depth of the program and this is a user-friendly way. It is important to limit the number of options on a single page and this is a better way of representing the menu option.
+Example: In my program, I have created a whole bunch of menus related to the up gradation of value, showing the login menu, and many more. In detail, the Account ticketing system is my main menu when user will come first then option one link which login system where user access account and under this user can do up-gradation to account system.

@@ -1,0 +1,13 @@
+Name: Daryl Alex
+ID: 143691202
+Email: dalex4@myseneca.ca
+Section: ZBB
+1. What is your favourite string function from the string library that you have used in this application? Describe why?
+‘strcmp’ is my favourite function from the string library that I have used in this application. This is because it was quite difficult for me to compare two strings in the previous assignment as by putting a == equivalence relation as it might not give the correct output in some cases and hence it is always best to use ‘strcmp’ rather than a == equivalence relation. A == equivalent relation might not always provide us with the correct return type. But the one that is my favourite function is ‘strcpy’ because this function lets you assign values to a character string array without creating a loop because it is not possible to assign values after initializing that is, we cannot modify a string manually after the initial initializing. Previously it was very difficult for me to assign the values to after the initial initialization. 
+2.  List all the new function prototypes you added to this milestone. For each new function, briefly describe why you created it and include what module/library you put it in and why. 
+void displayBodyOfMessages(void);
+void displayMessages(const struct Ticket* t);
+void displaySummary(const struct Ticket* t);
+void customerBody(void);
+void customerDetails(const struct Ticket* t);
+These are the new function prototype that I created or added to this milestone. The displayBodyOfMessages() was created to display the body of the Message which was to be common for the agent. The displayMessages(const struct Ticket* t) was created to display the details of the message subject line as a nutshell. This was common for both customer and the agent. The displaySummary(const struct Ticket* t) was created to display the entire messages that needed to be displayed when a particular ticket no. was given. This was common for both the customer and the agent. The customerBody(void) was created to display the customer body or the output for the customer details in the customer menu. This could be used only for the customer menu. The customerDetails(const struct Ticket* t) was created to display the subject header of the messages in the customer menu. This could be used only for the customer menu.

@@ -1,0 +1,49 @@
+Script started on Fri 05 Mar 2021 07:48:25 PM EST
+Assignment 1 Milestone 1
+=============================================
+
+TEST #1: Enter the word 'error' [ENTER], then the number -100: error
+ERROR: Value must be an integer: -100
+*** PASS *** 
+
+TEST #2: Enter the number -100 [ENTER], then the number 200: -100
+ERROR: Value must be a positive integer greater than zero: 200
+*** PASS *** 
+
+TEST #3: Enter the word 'error' [ENTER], then the number -4 [ENTER], then 12 [ENTER], then -3: error
+ERROR: Value must be an integer: -4
+ERROR: Value must be between -3 and 11 inclusive: 12
+ERROR: Value must be between -3 and 11 inclusive: -3
+*** PASS *** 
+
+TEST #4: Enter the number 14: 14
+*** PASS *** 
+
+TEST #5: Enter the word 'error' then, the number -150.75: error
+ERROR: Value must be a double floating-point number: -150.75
+*** PASS *** 
+
+TEST #6: Enter the number -22.11 [ENTER], the number 225.55: -22.11
+ERROR: Value must be a positive double floating-point number: 225.55
+*** PASS *** 
+
+TEST #7: Enter the character 'R' [ENTER], then 'p' [ENTER], then 'r': R
+ERROR: Character must be one of [qwerty]: p
+ERROR: Character must be one of [qwerty]: r
+*** PASS *** 
+
+TEST #8: Enter the word 'horse' [ENTER], then 'SENECA': horse
+ERROR: String length must be exactly 6 chars: SENECA
+Your Result: SENECA (Answer: SENECA)
+
+TEST #9: Enter the words 'Seneca College' [ENTER], then 'IPC': Seneca College
+ERROR: String length must be no more than 6 chars: IPC
+Your Result: IPC (Answer: IPC)
+
+TEST #10: Enter the words 'ipc' [ENTER], then 'SCHOOL': ipc
+ERROR: String length must be between 4 and 6 chars: SCHOOL
+Your Result: SCHOOL (Answer: SCHOOL)
+
+Assignment #1 Milestone #1 completed!
+
+Script done on Fri 05 Mar 2021 07:49:47 PM EST
