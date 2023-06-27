@@ -1,0 +1,10 @@
+Reflection
+1. Name: Daryl Alex
+2. Student Number: 143691202
+3. Seneca Email Address: dalex4@myseneca.ca
+4. Section Information Code: ZBB
+
+
+1. By completing this workshop I have learned how to print in c language. I have also learned how to compile files using a SHH. I have also learned how to submit my assignments using putty which is a SHH client and also to transfer my files using WinSCP which is a SFTP client.
+2. A SHH is a network protocol which stands for secure shell and which is used to establish a secure connection between a user and a server. I have used putty which is a SHH client and I have used it to compile my program and by which I have used to submit my assignment. 
+3. A SFTP is a secure file transfer protocol which stands for secure file transfer protocol which is used to transfer files between the users. I have used WinSCP which is a SFTP client and I have used it to transfer two of my source files which includes w1p1.c and w1p2.c.
