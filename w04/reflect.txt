@@ -1,0 +1,14 @@
+
+Name: Daryl Alex 	Student no.: 143691202	student id: dalex4@myseneca.ca
+1. I used for loop to link each data to one another. 
+I initialized the for loop with i=0, where ‘i’ is the iterator variable and then the condition i<n, where n is the number of wish list items that had to be calculated. Then I started printing each data thus linking them. Each time the loop ran, I incremented the value of ‘i’ by 1. 
+The key that I used to accomplish this was Item.
+2. The iterator variable is always initialized 0 because the first element of an array has an index 0, that is why the iterator variable of the loop always begins with 0.
+           Example:  for (i = 0; i < n; i++)t
+	                 {
+		    	printf("%3d  %5d    %5c    %11.2lf\n", i + 1, imp[i], finance[i],
+      item_cost[i]);
+	      }
+
+In this loop, iterator variable 'i' is initialized to 0 and this loop is used to display the item number, priority, finance & cost of all the product in the array as the value of each variable is stored in their first index which is zero. Once the loop is iterated, the value of ‘i’ is incremented by 1 and the loop iterates until the condition is false.
+3. Array is a data structure, and a data structure is a collection of data under a single name without any gaps and they are stored in an orderly manner. Each Array has a specific size. For example, in a library, the fiction book is all kept in a specific location under a specific name mostly known as ‘Fiction books.’ To take any fiction books, one must go to that fiction books section and then search for the required book.  This is same as that of an array.
